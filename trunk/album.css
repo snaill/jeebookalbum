@@ -1,0 +1,84 @@
+/*
+ * Jeebook store 1.0
+ * Copyright(c) 2008, Jeebook.com
+ * snaill@jeebook.com
+ * 
+ * http://www.jeebook.com
+ */
+ 
+/*
+ * loadMask component styles
+ */ 
+#loading-mask{
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	z-index:20000;
+	background-color:white;
+}
+#loading{
+	position:absolute;
+	left:45%;
+	top:40%;
+	padding:2px;
+	z-index:20001;
+	height:auto;
+}
+#loading a {
+	color:#225588;
+}
+#loading .loading-indicator{
+	background:white;
+	color:#444;
+	font:bold 13px tahoma,arial,helvetica;
+	padding:10px;
+	margin:0;
+	height:auto;
+}
+#loading-msg {
+	font: normal 10px arial,tahoma,sans-serif;
+}
+
+/*
+ * FileUploadField component styles
+ */
+.x-form-file-wrap {
+    position: relative;
+    height: 22px;
+}
+.x-form-file-wrap .x-form-file {
+	position: absolute;
+	right: 0;
+	-moz-opacity: 0;
+	filter:alpha(opacity: 0);
+	opacity: 0;
+	z-index: 2;
+    height: 22px;
+}
+.x-form-file-wrap .x-form-file-btn {
+	position: absolute;
+	right: 0;
+	z-index: 1;
+}
+.x-form-file-wrap .x-form-file-text {
+    position: absolute;
+    left: 0;
+    z-index: 3;
+    color: #777;
+}
+
+/*
+ * Statusbar component styles
+ */
+.x-statusbar .x-status-error {
+    color: #C33;
+    cursor: pointer;
+    padding-left: 25px;
+    background: transparent url(../../extjs/resources/images/default/form/exclamation.gif) no-repeat 3px 3px;
+}
+.x-statusbar .x-status-success {
+    padding-left: 25px;
+    background: transparent url(../images/accept.png) no-repeat 3px 3px;
+}
