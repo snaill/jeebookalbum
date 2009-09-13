@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Jeebook Album", ".", "{6FEB5C64-5667-4F6B-8AAB-8012D6EF2B5B}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/Jeebook Album"
+		Debug.AspNetCompiler.PhysicalPath = "..\Jeebook Album\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Jeebook Album\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Jeebook Album"
+		Release.AspNetCompiler.PhysicalPath = "..\Jeebook Album\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Jeebook Album\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "3991"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSuit", "JSuit\JSuit.csproj", "{E020658E-3F30-48C0-AE58-40BDB5AC884A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6FEB5C64-5667-4F6B-8AAB-8012D6EF2B5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FEB5C64-5667-4F6B-8AAB-8012D6EF2B5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FEB5C64-5667-4F6B-8AAB-8012D6EF2B5B}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FEB5C64-5667-4F6B-8AAB-8012D6EF2B5B}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{E020658E-3F30-48C0-AE58-40BDB5AC884A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E020658E-3F30-48C0-AE58-40BDB5AC884A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E020658E-3F30-48C0-AE58-40BDB5AC884A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E020658E-3F30-48C0-AE58-40BDB5AC884A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
