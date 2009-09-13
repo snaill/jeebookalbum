@@ -22,6 +22,7 @@ Ext.app.AlbumTree = function() {
 		cmargins    : '3 3 3 3',
 		autoScroll 	: true,
 		loader		: new Ext.app.AlbumTreeLoader({
+			dataUrl : 'ashx/albums.ashx',
        		clearOnLoad:false
        	}),
 		root 		: new Ext.tree.AsyncTreeNode({
