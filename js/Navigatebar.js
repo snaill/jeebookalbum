@@ -24,11 +24,13 @@ Ext.app.Navigatebar = function() {
 				text:Ext.app.Resource.Toolbar.BlogSite,
 				handler: this.onBlogSite,
 				scope:this
-			}, '-', new Ext.StatusBar({
-				id: 'Statusbar_Id',
-				style : 'background:#FFFFFF;border:none',
-				defaultText: 'Use guest@jeebook.com to login'
-			}), '->', {
+			}, 
+		//	'-', new Ext.StatusBar({
+		//		id: 'Statusbar_Id',
+		//		style : 'background:#FFFFFF;border:none',
+		//		defaultText: 'Use guest@jeebook.com to login'
+		//	}), 
+				'->', {
 				id : 'LoginMail_Id',
 				xtype: 'textfield',
 				hideLabel: true,	
